@@ -85,7 +85,6 @@
         <x-about />
         <x-tracks />
         <x-timeline />
-        <x-prizes />
         <x-faq />
         <x-register-cta />
         <x-footer />
