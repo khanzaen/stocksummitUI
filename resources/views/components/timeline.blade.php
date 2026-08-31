@@ -37,7 +37,7 @@
     <div class="absolute -right-16 top-[45%] font-outfit text-[#af8a3c]/15 text-lg font-bold animate-pulse -z-10 pointer-events-none hidden lg:block" style="animation-delay: 2.5s;">+</div>
     <div class="absolute -right-32 top-[10%] font-outfit text-[#af8a3c]/20 text-xl font-bold animate-pulse -z-10 pointer-events-none hidden lg:block">+</div>
 
-    <div class="max-w-3xl mx-auto text-center space-y-4">
+    <div class="max-w-3xl mx-auto text-center space-y-4" data-aos="fade-up">
         <h2 class="font-outfit font-extrabold text-[#af8a3c] text-sm tracking-wider uppercase">Event Roadmap</h2>
         <h3 class="font-outfit font-black text-3xl sm:text-4xl text-white uppercase">Chronological Timeline</h3>
         <p class="text-slate-400 font-light">
@@ -46,7 +46,7 @@
     </div>
 
     <!-- Interactive Tab Switcher -->
-    <div class="flex justify-center mt-8">
+    <div class="flex justify-center mt-8" data-aos="fade-up" data-aos-delay="100">
         <div class="relative flex p-1.5 bg-[#181d58]/60 backdrop-blur-md rounded-full border border-white/10 max-w-md w-full">
             <!-- Sliding Highlight indicator -->
             <div id="active-bg" class="absolute top-1.5 bottom-1.5 left-1.5 w-[calc(50%-6px)] bg-[#af8a3c] rounded-full transition-transform duration-300 ease-out shadow-lg shadow-[#af8a3c]/20 z-0"></div>

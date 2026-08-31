@@ -46,7 +46,7 @@
     @endphp
 
     <div class="max-w-6xl mx-auto px-4 w-full relative z-10">
-        <div class="text-center mb-16 space-y-3">
+        <div class="text-center mb-16 space-y-3" data-aos="fade-up">
             <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase">Choose Your Category</p>
             <h2 class="font-outfit font-black text-3xl sm:text-4xl text-white uppercase">Competition Categories</h2>
             <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto">
@@ -57,9 +57,9 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             <!-- Track 1: Equity Research -->
             @if($ercBookletExists)
-                <a href="{{ route('booklet.show', 'erc') }}" class="glassmorphism border border-slate-800/80 p-6 sm:p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between cursor-pointer">
+                <a href="{{ route('booklet.show', 'erc') }}" data-aos="fade-up" data-aos-delay="100" class="glassmorphism border border-slate-800/80 p-6 sm:p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between cursor-pointer">
             @else
-                <div onclick="openGuidebookModal('Equity Research')" class="glassmorphism border border-slate-800/80 p-6 sm:p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between cursor-pointer">
+                <div onclick="openGuidebookModal('Equity Research')" data-aos="fade-up" data-aos-delay="100" class="glassmorphism border border-slate-800/80 p-6 sm:p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between cursor-pointer">
             @endif
                 <!-- Decorative subtle glow in background -->
                 <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
@@ -112,9 +112,9 @@
 
             <!-- Track 2: Trading Competition -->
             @if($tcBookletExists)
-                <a href="{{ route('booklet.show', 'tc') }}" class="glassmorphism border border-slate-800/80 p-6 sm:p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between cursor-pointer">
+                <a href="{{ route('booklet.show', 'tc') }}" data-aos="fade-up" data-aos-delay="200" class="glassmorphism border border-slate-800/80 p-6 sm:p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between cursor-pointer">
             @else
-                <div onclick="openGuidebookModal('Trading')" class="glassmorphism border border-slate-800/80 p-6 sm:p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between cursor-pointer">
+                <div onclick="openGuidebookModal('Trading')" data-aos="fade-up" data-aos-delay="200" class="glassmorphism border border-slate-800/80 p-6 sm:p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between cursor-pointer">
             @endif
                 <!-- Decorative subtle glow in background -->
                 <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>

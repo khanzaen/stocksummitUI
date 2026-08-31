@@ -38,7 +38,7 @@
     <div class="absolute -right-16 top-[45%] font-outfit text-[#af8a3c]/15 text-lg font-bold animate-pulse -z-10 pointer-events-none hidden lg:block" style="animation-delay: 2.5s;">+</div>
     <div class="absolute -right-32 top-[10%] font-outfit text-[#af8a3c]/20 text-xl font-bold animate-pulse -z-10 pointer-events-none hidden lg:block">+</div>
 
-    <div class="text-center mb-16 space-y-3">
+    <div class="text-center mb-16 space-y-3" data-aos="fade-up">
         <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase">Requirements</p>
         <h2 class="font-outfit font-black text-3xl sm:text-4xl text-white uppercase">Eligibility Requirements</h2>
         <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto font-light">
@@ -50,7 +50,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto relative z-10">
         
         <!-- Requirement 1 -->
-        <div class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
+        <div data-aos="fade-up" data-aos-delay="50" class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#af8a3c] flex items-center justify-center text-[#af8a3c] mt-0.5 z-10">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
@@ -63,7 +63,7 @@
         </div>
 
         <!-- Requirement 2 -->
-        <div class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
+        <div data-aos="fade-up" data-aos-delay="100" class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#af8a3c] flex items-center justify-center text-[#af8a3c] mt-0.5 z-10">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
@@ -76,7 +76,7 @@
         </div>
 
         <!-- Requirement 3 -->
-        <div class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
+        <div data-aos="fade-up" data-aos-delay="150" class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#af8a3c] flex items-center justify-center text-[#af8a3c] mt-0.5 z-10">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
@@ -89,7 +89,7 @@
         </div>
 
         <!-- Requirement 4 -->
-        <div class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
+        <div data-aos="fade-up" data-aos-delay="200" class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#af8a3c] flex items-center justify-center text-[#af8a3c] mt-0.5 z-10">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
@@ -102,7 +102,7 @@
         </div>
 
         <!-- Requirement 5 -->
-        <div class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
+        <div data-aos="fade-up" data-aos-delay="250" class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#af8a3c] flex items-center justify-center text-[#af8a3c] mt-0.5 z-10">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
@@ -115,7 +115,7 @@
         </div>
 
         <!-- Requirement 6 -->
-        <div class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
+        <div data-aos="fade-up" data-aos-delay="300" class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#af8a3c] flex items-center justify-center text-[#af8a3c] mt-0.5 z-10">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
@@ -128,7 +128,7 @@
         </div>
 
         <!-- Requirement 7 -->
-        <div class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
+        <div data-aos="fade-up" data-aos-delay="350" class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#af8a3c] flex items-center justify-center text-[#af8a3c] mt-0.5 z-10">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
@@ -141,7 +141,7 @@
         </div>
 
         <!-- Requirement 8 -->
-        <div class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
+        <div data-aos="fade-up" data-aos-delay="400" class="flex items-start gap-4 glassmorphism border border-slate-800/80 p-5 rounded-2xl hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.01] transition-all duration-500 relative overflow-hidden group">
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div class="flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#af8a3c] flex items-center justify-center text-[#af8a3c] mt-0.5 z-10">
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">

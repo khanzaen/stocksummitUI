@@ -38,7 +38,7 @@
     <div class="absolute -right-16 top-[45%] font-outfit text-[#af8a3c]/15 text-lg font-bold animate-pulse -z-10 pointer-events-none hidden lg:block" style="animation-delay: 2.5s;">+</div>
     <div class="absolute -right-32 top-[10%] font-outfit text-[#af8a3c]/20 text-xl font-bold animate-pulse -z-10 pointer-events-none hidden lg:block">+</div>
 
-    <div class="text-center mb-16 space-y-3">
+    <div class="text-center mb-16 space-y-3" data-aos="fade-up">
         <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase">Get In Touch</p>
         <h2 class="font-outfit font-black text-3xl sm:text-4xl text-white uppercase">Contact Us</h2>
         <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto">
@@ -48,12 +48,12 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-5xl mx-auto">
         <!-- Left Side: Photo -->
-        <div class="relative w-full rounded-3xl overflow-hidden border border-slate-800/80 shadow-2xl aspect-[4/3] group/img">
+        <div class="relative w-full rounded-3xl overflow-hidden border border-slate-800/80 shadow-2xl aspect-[4/3] group/img" data-aos="fade-up" data-aos-delay="100">
             <img src="{{ asset('images/contact_idx.jpg') }}" alt="Stock Summit 2025 Awarding at IDX" class="w-full h-full object-cover group-hover/img:scale-102 transition-transform duration-700">
         </div>
 
         <!-- Right Side: Direct Contact (No Card Wrapper) -->
-        <div class="flex flex-col justify-center text-left lg:pl-8 space-y-6">
+        <div class="flex flex-col justify-center text-left lg:pl-8 space-y-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="font-outfit font-bold text-2xl sm:text-3xl text-white mb-2">Direct Contact</h3>
             
             <div class="space-y-6">

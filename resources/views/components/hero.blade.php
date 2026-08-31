@@ -18,7 +18,7 @@
 
     <!-- Content Container -->
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 flex flex-col items-center relative z-10">
-        <div class="space-y-4">
+        <div class="space-y-4" data-aos="fade-up">
             <!-- Organization Tag -->
             <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.25em] text-xs sm:text-sm uppercase">
                 CMSC UI PRESENTS
@@ -36,12 +36,12 @@
         </div>
 
         <!-- Subtext Description -->
-        <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-light">
+        <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-light" data-aos="fade-up" data-aos-delay="100">
             Join Stock Summit 2026, the premier national stock trading simulation and valuation competition. Bridge academic finance theory with live execution, analyze market patterns, and pitch to elite industry judges.
         </p>
 
         <!-- Interactive Countdown Widget -->
-        <div class="glassmorphism border border-[#af8a3c]/30 p-6 rounded-2xl w-full max-w-md mx-auto hover:border-[#af8a3c]/50 transition-all duration-300 space-y-3">
+        <div class="glassmorphism border border-[#af8a3c]/30 p-6 rounded-2xl w-full max-w-md mx-auto hover:border-[#af8a3c]/50 transition-all duration-300 space-y-3" data-aos="fade-up" data-aos-delay="200">
             <h3 id="competition-countdown-title" class="text-xs uppercase tracking-widest text-slate-400 font-semibold text-center">Registration Ends In</h3>
             <div id="competition-countdown-numbers" class="flex justify-center gap-4">
                 <div class="text-center">
@@ -71,7 +71,7 @@
         </div>
 
         <!-- Call to actions -->
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto" data-aos="fade-up" data-aos-delay="300">
             <a href="#register" class="w-full sm:w-auto px-8 py-3.5 rounded-full text-base font-semibold text-[#10143d] bg-[#af8a3c] hover:bg-[#cba14b] transition-all duration-300 shadow-lg shadow-[#af8a3c]/20 text-center">
                 Register Now
             </a>
