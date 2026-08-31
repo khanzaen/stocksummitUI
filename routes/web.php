@@ -19,10 +19,10 @@ Route::post('/oprec', [OprecController::class, 'submitForm'])->name('oprec.submi
 
 Route::get('/register', [RegistrationController::class, 'showForm'])->name('register.show');
 Route::get('/register/erc', function () {
-    return redirect('https://docs.google.com/forms/d/e/1FAIpQLSeC73wJpih5Zm3kPY0QclovJbE88IiuQjntdSHasSD2O4jRNw/viewform');
+    return redirect('https://docs.google.com/forms/d/e/1FAIpQLSeC73wJpih5Zm3kPY0QclovJbE88IiuQjntdSHasSD2O4jRNw/viewform?usp=header');
 })->name('register.erc');
 Route::get('/register/tc', function () {
-    return redirect('https://docs.google.com/forms/d/e/1FAIpQLSeg5EN3R8on2zU9-T0HbPm6rd_2BinjM98PNoCC14a5kA0n5g/viewform');
+    return redirect('https://docs.google.com/forms/d/e/1FAIpQLSeg5EN3R8on2zU9-T0HbPm6rd_2BinjM98PNoCC14a5kA0n5g/viewform?usp=header');
 })->name('register.tc');
 
 Route::get('/committee', function () {
@@ -45,8 +45,8 @@ Route::get('/booklet/{track}', function ($track) {
     }
     
     $heyzineUrl = $track === 'erc' 
-        ? 'https://heyzine.com/flip-book/e5f3953c40.html' 
-        : 'https://heyzine.com/flip-book/21f9c0652e.html';
+        ? 'https://heyzine.com/flip-book/6ec1cafd0d.html' 
+        : 'https://heyzine.com/flip-book/9129d0c89e.html';
     
     return view('booklet', compact('title', 'filePath', 'track', 'fileName', 'heyzineUrl'));
 })->name('booklet.show');
