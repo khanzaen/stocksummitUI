@@ -3,7 +3,7 @@
     $compEndDate = $competitionEndDate ?? '2026-08-15 23:59:59';
 @endphp
 <!-- Hero Section -->
-<section class="relative w-full pt-8 pb-20 md:pt-12 md:pb-36 flex flex-col items-center justify-center text-center overflow-hidden">
+<section class="relative w-full pt-28 pb-20 md:pt-36 md:pb-36 flex flex-col items-center justify-center text-center overflow-hidden">
     <!-- Background Image with Gradient Overlay -->
     <div class="absolute inset-0 pointer-events-none -z-20">
         <!-- The Trading Chart Background -->

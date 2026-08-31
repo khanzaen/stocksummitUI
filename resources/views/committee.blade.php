@@ -62,7 +62,7 @@
         <x-navbar />
 
         <!-- Hero Section -->
-        <section class="relative w-full pt-20 pb-12 flex flex-col items-center justify-center text-center overflow-hidden">
+        <section class="relative w-full pt-32 pb-12 flex flex-col items-center justify-center text-center overflow-hidden">
             <div class="max-w-4xl mx-auto px-4 space-y-6 relative z-10">
                 <span class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase block">Stock Summit 2026</span>
                 <h1 class="font-outfit font-black text-4xl sm:text-6xl text-white uppercase leading-tight tracking-tight">
@@ -132,7 +132,7 @@
             </div>
         </section>
 
-        <!-- Organizing Committee Section -->
+        <!-- C-Level Officers Section -->
         <section class="relative w-full py-16 flex flex-col items-center justify-center text-center overflow-hidden border-t border-slate-800/40">
             <!-- Background Glows -->
             <div class="absolute inset-0 pointer-events-none -z-20">
@@ -143,7 +143,7 @@
             <div class="max-w-6xl mx-auto px-4 w-full relative z-10">
                 <div class="text-center mb-16 space-y-2">
                     <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.15em] text-xs uppercase">Executive Board</p>
-                    <h2 class="font-outfit font-black text-2xl sm:text-4xl text-white uppercase tracking-wide">Organizing Committee</h2>
+                    <h2 class="font-outfit font-black text-2xl sm:text-4xl text-white uppercase tracking-wide">C-Level Officers</h2>
                 </div>
                 
                 <!-- Tree Container -->
