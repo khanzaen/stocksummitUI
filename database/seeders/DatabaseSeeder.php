@@ -15,11 +15,28 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        $this->call([
+            AdminUserSeeder::class,
         ]);
+
+        \App\Models\Setting::updateOrCreate(
+            ['key' => 'registration_start_date'],
+            ['value' => '2026-06-01 00:00:00']
+        );
+
+        \App\Models\Setting::updateOrCreate(
+            ['key' => 'registration_end_date'],
+            ['value' => '2026-08-31 23:59:59']
+        );
+
+        \App\Models\Setting::updateOrCreate(
+            ['key' => 'competition_start_date'],
+            ['value' => '2026-06-01 00:00:00']
+        );
+
+        \App\Models\Setting::updateOrCreate(
+            ['key' => 'competition_end_date'],
+            ['value' => '2026-08-15 23:59:59']
+        );
     }
 }
