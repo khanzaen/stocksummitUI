@@ -84,7 +84,7 @@
                     <ul class="space-y-2.5 text-slate-400 text-xs">
                         <li class="flex items-center gap-2">
                             <svg class="w-3.5 h-3.5 text-[#af8a3c] shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
-                            Individual or Team-based (1-3 members)
+                            Team-based (2-3 members)
                         </li>
                         <li class="flex items-center gap-2">
                             <svg class="w-3.5 h-3.5 text-[#af8a3c] shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
@@ -139,7 +139,7 @@
                     <ul class="space-y-2.5 text-slate-400 text-xs">
                         <li class="flex items-center gap-2">
                             <svg class="w-3.5 h-3.5 text-[#af8a3c] shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
-                            Individual or Team-based (1-3 members)
+                            Individual Participation (1 member)
                         </li>
                         <li class="flex items-center gap-2">
                             <svg class="w-3.5 h-3.5 text-[#af8a3c] shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>

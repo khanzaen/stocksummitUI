@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="border-t border-[#af8a3c]/15 bg-white pt-16 pb-12 relative overflow-hidden">
+<footer class="w-full max-w-full border-t border-[#af8a3c]/15 bg-white pt-16 pb-12 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
         <!-- Top Row: Grid of Info -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 pb-8 border-b border-slate-200">
