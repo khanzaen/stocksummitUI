@@ -10,6 +10,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+        <!-- AOS (Animate On Scroll) Stylesheet -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- Tailwind CSS Integration -->
         <script src="https://cdn.tailwindcss.com"></script>
         <script>
@@ -83,14 +86,14 @@
         <!-- Steering Committee Section -->
         <section class="relative w-full py-16 flex flex-col items-center justify-center text-center overflow-hidden">
             <div class="max-w-6xl mx-auto px-4 w-full relative z-10">
-                <div class="text-center mb-12 space-y-2">
+                <div class="text-center mb-12 space-y-2" data-aos="fade-up">
                     <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.15em] text-xs uppercase">Strategic Advisors</p>
                     <h2 class="font-outfit font-black text-2xl sm:text-4xl text-white uppercase tracking-wide">Steering Committee</h2>
                 </div>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
                     <!-- Card 1: Zahra Aulia -->
-                    <div class="glass-card border border-slate-800/80 p-6 rounded-2xl text-center backdrop-blur-md hover:border-[#af8a3c]/30 hover:shadow-[#af8a3c]/5 hover:shadow-xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group">
+                    <div data-aos="fade-up" data-aos-delay="100" class="glass-card border border-slate-800/80 p-6 rounded-2xl text-center backdrop-blur-md hover:border-[#af8a3c]/30 hover:shadow-[#af8a3c]/5 hover:shadow-xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group">
                         <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
 
                         <div class="w-28 h-28 rounded-full bg-slate-800 mx-auto mb-4 overflow-hidden border-2 border-[#af8a3c]/30 group-hover:border-[#af8a3c]/60 transition-all duration-300 flex items-center justify-center">
@@ -108,7 +111,7 @@
                     </div>
 
                     <!-- Card 2: Mohammad Syahrul -->
-                    <div class="glass-card border border-slate-800/80 p-6 rounded-2xl text-center backdrop-blur-md hover:border-[#af8a3c]/30 hover:shadow-[#af8a3c]/5 hover:shadow-xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group">
+                    <div data-aos="fade-up" data-aos-delay="200" class="glass-card border border-slate-800/80 p-6 rounded-2xl text-center backdrop-blur-md hover:border-[#af8a3c]/30 hover:shadow-[#af8a3c]/5 hover:shadow-xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group">
                         <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
 
                         <div class="w-28 h-28 rounded-full bg-slate-800 mx-auto mb-4 overflow-hidden border-2 border-[#af8a3c]/30 group-hover:border-[#af8a3c]/60 transition-all duration-300 flex items-center justify-center">
@@ -126,7 +129,7 @@
                     </div>
 
                     <!-- Card 3: Mumtaz Nazilla -->
-                    <div class="glass-card border border-slate-800/80 p-6 rounded-2xl text-center backdrop-blur-md hover:border-[#af8a3c]/30 hover:shadow-[#af8a3c]/5 hover:shadow-xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group">
+                    <div data-aos="fade-up" data-aos-delay="300" class="glass-card border border-slate-800/80 p-6 rounded-2xl text-center backdrop-blur-md hover:border-[#af8a3c]/30 hover:shadow-[#af8a3c]/5 hover:shadow-xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group">
                         <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
 
                         <div class="w-28 h-28 rounded-full bg-slate-800 mx-auto mb-4 overflow-hidden border-2 border-[#af8a3c]/30 group-hover:border-[#af8a3c]/60 transition-all duration-300 flex items-center justify-center">
@@ -149,7 +152,7 @@
             </div>
 
             <div class="max-w-6xl mx-auto px-4 w-full relative z-10">
-                <div class="text-center mb-16 space-y-2">
+                <div class="text-center mb-16 space-y-2" data-aos="fade-up">
                     <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.15em] text-xs uppercase">Executive Board</p>
                     <h2 class="font-outfit font-black text-2xl sm:text-4xl text-white uppercase tracking-wide">C-Level Officers</h2>
                 </div>
@@ -158,7 +161,7 @@
                 <div class="space-y-12 max-w-5xl mx-auto relative">
                     
                     <!-- Level 1: CEO -->
-                    <div class="flex justify-center relative">
+                    <div class="flex justify-center relative" data-aos="fade-up" data-aos-delay="100">
                         <!-- Vertical Connector line down to the horizontal connector -->
                         <div class="absolute top-full left-1/2 -translate-x-1/2 w-0.5 h-8 bg-slate-800 hidden md:block"></div>
                         
@@ -192,7 +195,7 @@
                     </div>
 
                     <!-- Level 2: Core Officers (6-column Grid) -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-4 pt-4 md:pt-0">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-4 pt-4 md:pt-0" data-aos="fade-up" data-aos-delay="200">
                         <!-- COO: Khanza Haura -->
                         <div class="glass-card border border-slate-800/80 p-4 rounded-xl text-center backdrop-blur-md hover:border-[#af8a3c]/30 hover:shadow-[#af8a3c]/5 hover:shadow-xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group">
                             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
@@ -315,13 +318,13 @@
             </div>
 
             <div class="max-w-6xl mx-auto px-4 w-full relative z-10">
-                <div class="text-center mb-16 space-y-2">
+                <div class="text-center mb-16 space-y-2" data-aos="fade-up">
                     <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.15em] text-xs uppercase">Divisional Leaders</p>
                     <h2 class="font-outfit font-black text-2xl sm:text-4xl text-white uppercase tracking-wide">Division Managers & Vice Managers</h2>
                 </div>
 
                 <!-- Divisions Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto" data-aos="fade-up" data-aos-delay="100">
                     @php
                         $divisions = [
                             // COO Divisions
@@ -640,6 +643,19 @@
                     burgerMid.classList.remove('opacity-0');
                     burgerBottom.classList.remove('transform', '-rotate-45', '-translate-y-[6px]');
                 }
+            });
+        </script>
+
+        <!-- AOS (Animate On Scroll) Library -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                AOS.init({
+                    duration: 800,
+                    once: true,
+                    offset: 60,
+                    easing: 'ease-out-cubic',
+                });
             });
         </script>
     </body>

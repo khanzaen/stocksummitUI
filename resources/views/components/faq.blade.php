@@ -37,7 +37,7 @@
     <div class="absolute -right-16 top-[45%] font-outfit text-[#af8a3c]/15 text-lg font-bold animate-pulse -z-10 pointer-events-none hidden lg:block" style="animation-delay: 2.5s;">+</div>
     <div class="absolute -right-32 top-[10%] font-outfit text-[#af8a3c]/20 text-xl font-bold animate-pulse -z-10 pointer-events-none hidden lg:block">+</div>
 
-    <div class="text-center space-y-4">
+    <div class="text-center space-y-4" data-aos="fade-up">
         <h2 class="font-outfit font-extrabold text-[#af8a3c] text-sm tracking-wider uppercase">Got Questions?</h2>
         <h3 class="font-outfit font-black text-3xl sm:text-4xl text-white uppercase">Frequently Asked Questions</h3>
         <p class="text-slate-400 font-light">
@@ -46,7 +46,7 @@
     </div>
 
     <!-- Accordion Grid -->
-    <div class="space-y-4 relative z-10">
+    <div class="space-y-4 relative z-10" data-aos="fade-up" data-aos-delay="100">
         @php
             $faqs = [
                 [
@@ -78,7 +78,7 @@
                 ],
             ];
         @endphp
-        @foreach($faqs as $faq)
+        @foreach($faqs as $index => $faq)
         <div class="glassmorphism border border-slate-800/80 hover:border-[#af8a3c]/35 rounded-2xl overflow-hidden transition-all duration-300">
             <button class="w-full flex items-center justify-between p-6 text-left focus:outline-none group" onclick="toggleFaq(this)">
                 <span class="font-outfit font-semibold text-white group-hover:text-[#af8a3c] transition-colors">{{ $faq['question'] }}</span>

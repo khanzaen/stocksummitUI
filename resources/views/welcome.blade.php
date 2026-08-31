@@ -10,6 +10,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+        <!-- AOS (Animate On Scroll) Stylesheet -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -199,6 +202,19 @@
                     button.parentElement.classList.add('border-[#af8a3c]/50');
                 }
             }
+        </script>
+
+        <!-- AOS (Animate On Scroll) Library -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                AOS.init({
+                    duration: 800,
+                    once: true,
+                    offset: 60,
+                    easing: 'ease-out-cubic',
+                });
+            });
         </script>
     </body>
 </html>

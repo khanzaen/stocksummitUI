@@ -13,7 +13,7 @@
     <div class="absolute -right-20 top-1/2 -translate-y-1/2 w-56 h-56 border border-dashed border-indigo-500/20 rounded-full animate-[spin_50s_linear_infinite] -z-10 pointer-events-none hidden lg:block"></div>
     <div class="absolute -right-12 bottom-1/3 w-10 h-10 border border-indigo-500/30 rounded-full animate-[pulse_4s_ease-in-out_infinite] -z-10 pointer-events-none hidden lg:block" style="animation-delay: 1s;"></div>
 
-    <div class="relative rounded-3xl overflow-hidden bg-[#0f123d]/60 border border-[#af8a3c]/40 backdrop-blur-md py-16 px-8 sm:px-16 text-center space-y-6 shadow-2xl hover:border-[#af8a3c]/60 hover:shadow-[#af8a3c]/10 transition-all duration-500">
+    <div data-aos="fade-up" class="relative rounded-3xl overflow-hidden bg-[#0f123d]/60 border border-[#af8a3c]/40 backdrop-blur-md py-16 px-8 sm:px-16 text-center space-y-6 shadow-2xl hover:border-[#af8a3c]/60 hover:shadow-[#af8a3c]/10 transition-all duration-500">
         <div class="absolute inset-0 bg-gradient-to-tr from-[#af8a3c]/15 to-indigo-500/5 -z-10"></div>
         <h3 class="font-outfit font-black text-3xl sm:text-4xl text-[#af8a3c] uppercase tracking-wide">Are You Ready to Join Us?</h3>
         <p class="text-slate-300 max-w-xl mx-auto text-sm sm:text-base font-light">

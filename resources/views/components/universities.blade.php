@@ -8,7 +8,7 @@
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-[#af8a3c]/5 rounded-full blur-[140px] -z-10 pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
-        <div class="text-center space-y-3">
+        <div class="text-center space-y-3" data-aos="fade-up">
             <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase">Previous Participants</p>
             <h2 class="font-outfit font-black text-2xl sm:text-3xl lg:text-4xl text-white uppercase">
                 Past Participating Universities
@@ -19,7 +19,7 @@
         </div>
 
         <!-- Dynamic Micro-Animation: University Marquee Tickers (Dual-container smooth loop of logos) -->
-        <div class="space-y-8 pt-4 max-w-4xl mx-auto">
+        <div class="space-y-8 pt-4 max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="150">
             <!-- Row 1: Left to Right Marquee -->
             <div class="relative flex overflow-x-hidden w-full select-none [--gap:2rem] [--speed:90s]">
                 @php

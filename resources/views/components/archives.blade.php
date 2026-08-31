@@ -38,7 +38,7 @@
     <div class="absolute -right-16 top-[45%] font-outfit text-[#af8a3c]/15 text-lg font-bold animate-pulse -z-10 pointer-events-none hidden lg:block" style="animation-delay: 2.5s;">+</div>
     <div class="absolute -right-32 top-[10%] font-outfit text-[#af8a3c]/20 text-xl font-bold animate-pulse -z-10 pointer-events-none hidden lg:block">+</div>
 
-    <div class="text-center mb-16 space-y-3">
+    <div class="text-center mb-16 space-y-3" data-aos="fade-up">
         <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase">Our Journey</p>
         <h2 class="font-outfit font-black text-3xl sm:text-4xl text-white uppercase">Past Events</h2>
         <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto">
@@ -50,7 +50,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
         
         <!-- Archive Card 2025 -->
-        <a href="/archive/2025" class="glassmorphism border border-slate-800/80 p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between aspect-[16/9]">
+        <a href="/archive/2025" data-aos="fade-up" data-aos-delay="100" class="glassmorphism border border-slate-800/80 p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between aspect-[16/9]">
             <!-- Decorative subtle glow in background -->
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             
@@ -67,7 +67,7 @@
         </a>
 
         <!-- Archive Card 2024 -->
-        <a href="/archive/2024" class="glassmorphism border border-slate-800/80 p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between aspect-[16/9]">
+        <a href="/archive/2024" data-aos="fade-up" data-aos-delay="200" class="glassmorphism border border-slate-800/80 p-8 rounded-3xl text-left hover:border-[#af8a3c]/40 hover:shadow-[#af8a3c]/5 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 relative overflow-hidden group flex flex-col justify-between aspect-[16/9]">
             <!-- Decorative subtle glow in background -->
             <div class="absolute -inset-px bg-gradient-to-r from-transparent via-[#af8a3c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             

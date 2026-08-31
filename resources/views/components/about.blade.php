@@ -5,7 +5,7 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <!-- Left Side: Header & Descriptions -->
-        <div class="lg:col-span-7 space-y-6 text-left">
+        <div class="lg:col-span-7 space-y-6 text-left" data-aos="fade-up">
             <div class="space-y-3">
                 <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase">About The Event</p>
                 <h2 class="font-outfit font-black text-3xl sm:text-4xl lg:text-5xl text-white leading-tight uppercase">
@@ -24,7 +24,7 @@
         </div>
 
         <!-- Right Side: Features List (No Card Container) -->
-        <div class="lg:col-span-5 text-left space-y-6 lg:pl-6">
+        <div class="lg:col-span-5 text-left space-y-6 lg:pl-6" data-aos="fade-up" data-aos-delay="150">
             <h3 class="font-outfit font-bold text-xl sm:text-2xl text-white">Why Join Stock Summit?</h3>
             
             <ul class="space-y-5">
