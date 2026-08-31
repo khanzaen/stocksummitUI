@@ -1,5 +1,5 @@
 <!-- CTA footer card -->
-<section id="register" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative overflow-visible">
+<section id="register" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative overflow-hidden">
     <!-- Ambient Glow behind card -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-gradient-to-tr from-[#af8a3c]/20 to-[#af8a3c]/5 rounded-full blur-[90px] -z-10 pointer-events-none"></div>
 

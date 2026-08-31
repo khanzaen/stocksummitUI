@@ -13,14 +13,22 @@
             background: rgba(12, 15, 46, 0.7);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
+        html, body {
+            overflow-x: hidden !important;
+            max-width: 100vw;
+            width: 100%;
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>
-<body class="bg-[#10143d] text-slate-100 antialiased overflow-x-hidden">
+<body class="bg-[#10143d] text-slate-100 antialiased overflow-x-hidden min-h-screen relative w-full">
 
     <!-- Subtle Glows -->
-    <div class="absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/10 rounded-full blur-[120px] -z-10"></div>
-    <div class="absolute top-[800px] left-0 w-[450px] h-[450px] bg-amber-500/5 rounded-full blur-[110px] -z-10"></div>
+    <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+        <div class="absolute top-0 right-0 w-[400px] h-[400px] bg-indigo-500/10 rounded-full blur-[120px]"></div>
+        <div class="absolute top-[800px] left-0 w-[450px] h-[450px] bg-amber-500/5 rounded-full blur-[110px]"></div>
+    </div>
 
     <!-- Back to Active Year Nav -->
     <div class="bg-[#0c0e2c] border-b border-slate-800 py-4 text-center text-sm font-semibold sticky top-0 z-50 backdrop-blur-md bg-opacity-95 flex justify-center gap-4 flex-wrap">

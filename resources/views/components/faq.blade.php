@@ -1,5 +1,5 @@
 <!-- FAQ Section -->
-<section id="faq" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-16 relative overflow-visible border-t border-[#af8a3c]/15">
+<section id="faq" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-16 relative overflow-hidden border-t border-[#af8a3c]/15">
     <!-- Ambient Glow behind FAQ -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-[#af8a3c]/5 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
 

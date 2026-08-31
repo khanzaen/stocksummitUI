@@ -1,5 +1,5 @@
 <!-- Timeline Section -->
-<section id="timeline" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-12 pb-24 md:pb-32 space-y-16 relative overflow-visible">
+<section id="timeline" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-12 pb-24 md:pb-32 space-y-16 relative overflow-hidden">
     <!-- Ambient Glow behind timeline -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-[#af8a3c]/5 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
 
