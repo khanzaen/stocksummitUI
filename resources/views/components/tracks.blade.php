@@ -1,4 +1,4 @@
-<section id="tracks" class="relative w-full pt-20 md:pt-28 pb-8 md:pb-12 flex flex-col items-center justify-center text-center overflow-visible border-t border-[#af8a3c]/15">
+<section id="tracks" class="relative w-full pt-20 md:pt-28 pb-8 md:pb-12 flex flex-col items-center justify-center text-center overflow-hidden border-t border-[#af8a3c]/15">
     <!-- Background glows -->
     <div class="absolute top-1/2 left-1/4 -translate-y-1/2 w-[350px] h-[350px] bg-[#af8a3c]/10 rounded-full blur-[100px] -z-10"></div>
     <div class="absolute top-1/2 right-1/4 -translate-y-1/2 w-[350px] h-[350px] bg-[#af8a3c]/8 rounded-full blur-[100px] -z-10"></div>

@@ -46,9 +46,16 @@
         .glow-gold {
             box-shadow: 0 0 40px -5px rgba(175, 138, 60, 0.35);
         }
+        html, body {
+            overflow-x: hidden !important;
+            max-width: 100vw;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
     </style>
 </head>
-<body class="bg-[#10143d] text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-amber-500/30 selection:text-amber-200 overflow-x-hidden relative">
+<body class="bg-[#10143d] text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-amber-500/30 selection:text-amber-200 overflow-x-hidden relative w-full">
     
     <!-- Glowing background mesh grid -->
     <div class="absolute inset-0 bg-[linear-gradient(to_right,#161a4f_1px,transparent_1px),linear-gradient(to_bottom,#161a4f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] -z-10"></div>

@@ -1,5 +1,5 @@
 <!-- Eligibility Section -->
-<section id="eligibility" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative overflow-visible border-t border-[#af8a3c]/15">
+<section id="eligibility" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative overflow-hidden border-t border-[#af8a3c]/15">
     <!-- Glowing background lights -->
     <div class="absolute top-1/2 left-1/4 -translate-y-1/2 w-[350px] h-[350px] bg-[#af8a3c]/8 rounded-full blur-[100px] -z-10"></div>
     <div class="absolute top-1/2 right-1/4 -translate-y-1/2 w-[350px] h-[350px] bg-[#af8a3c]/10 rounded-full blur-[100px] -z-10"></div>

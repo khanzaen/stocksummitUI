@@ -47,16 +47,24 @@
                 background: rgba(12, 15, 46, 0.7);
                 backdrop-filter: blur(16px);
                 -webkit-backdrop-filter: blur(16px);
+            html, body {
+                overflow-x: hidden !important;
+                max-width: 100vw;
+                width: 100%;
+                margin: 0;
+                padding: 0;
             }
         </style>
     </head>
-    <body class="bg-[#10143d] text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-amber-500/30 selection:text-amber-200">
+    <body class="bg-[#10143d] text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-amber-500/30 selection:text-amber-200 min-h-screen relative w-full">
         
         <!-- Glowing background mesh grid -->
-        <div class="absolute inset-0 bg-[linear-gradient(to_right,#161a4f_1px,transparent_1px),linear-gradient(to_bottom,#161a4f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] -z-10"></div>
-        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-indigo-500/10 rounded-full blur-[120px] -z-10"></div>
-        <div class="absolute top-[800px] left-0 w-[400px] h-[400px] bg-amber-500/5 rounded-full blur-[100px] -z-10"></div>
-        <div class="absolute bottom-[400px] right-10 w-[450px] h-[450px] bg-indigo-500/10 rounded-full blur-[110px] -z-10"></div>
+        <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+            <div class="absolute inset-0 bg-[linear-gradient(to_right,#161a4f_1px,transparent_1px),linear-gradient(to_bottom,#161a4f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+            <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-indigo-500/10 rounded-full blur-[120px]"></div>
+            <div class="absolute top-[800px] left-0 w-[400px] h-[400px] bg-amber-500/5 rounded-full blur-[100px]"></div>
+            <div class="absolute bottom-[400px] right-10 w-[450px] h-[450px] bg-indigo-500/10 rounded-full blur-[110px]"></div>
+        </div>
 
         <!-- Header / Navigation -->
         <x-navbar />

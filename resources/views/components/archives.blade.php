@@ -1,5 +1,5 @@
 <!-- Archives Section -->
-<section id="archives" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative border-t border-[#af8a3c]/15 mt-12 overflow-visible">
+<section id="archives" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative border-t border-[#af8a3c]/15 mt-12 overflow-hidden">
     <!-- Glowing background lights -->
     <div class="absolute top-1/2 left-1/4 -translate-y-1/2 w-[300px] h-[300px] bg-[#af8a3c]/8 rounded-full blur-[100px] -z-10"></div>
     <div class="absolute top-1/2 right-1/4 -translate-y-1/2 w-[300px] h-[300px] bg-[#af8a3c]/10 rounded-full blur-[100px] -z-10"></div>
