@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>StockSummit UI 2026 - Premium Stock Trading & Equity Research Competition</title>
+        <title>Stock Summit UI 2026 - Premium Stock Trading & Equity Research Competition</title>
         
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,12 +80,16 @@
 
         {{-- Render modular components using Blade component notation --}}
         <x-navbar />
-        <x-hero />
+        <x-hero :competitionStartDate="$competitionStartDate" :competitionEndDate="$competitionEndDate" />
         <x-stats />
+        <x-universities />
         <x-about />
         <x-tracks />
         <x-timeline />
+        <x-eligibility />
         <x-faq />
+        <x-archives />
+        <x-contact />
         <x-register-cta />
         <x-footer />
 
