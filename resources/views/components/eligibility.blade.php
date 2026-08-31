@@ -84,7 +84,7 @@
                 </svg>
             </div>
             <p class="text-slate-300 text-sm font-medium leading-relaxed z-10">
-                The participating team must consist of <strong>1 (one) to 3 (three) active members</strong> for both the Equity Research Competition (ERC) and Trading Competition (TC).
+                For the <strong>Equity Research Competition (ERC)</strong>, teams must consist of <strong>2 (two) to 3 (three) active members</strong>. For the <strong>Trading Competition (TC)</strong>, participation is strictly <strong>individual (1 person)</strong>.
             </p>
         </div>
 

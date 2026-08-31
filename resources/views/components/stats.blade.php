@@ -1,5 +1,5 @@
 <!-- Stats Bar -->
-<section class="border-y border-[#af8a3c]/20 bg-[#af8a3c]/5 py-8 relative">
+<section class="w-full border-y border-[#af8a3c]/20 bg-[#af8a3c]/5 py-8 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-8">
         <div class="text-center space-y-1">
             <p class="text-slate-400 text-xs sm:text-sm font-semibold uppercase tracking-wider">Total Prize Pool</p>

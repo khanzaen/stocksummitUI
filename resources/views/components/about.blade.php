@@ -1,5 +1,5 @@
 <!-- About Section -->
-<section id="about" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative">
+<section id="about" class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative overflow-hidden">
     <!-- Glowing background elements for visual interest -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-[#af8a3c]/10 rounded-full blur-[120px] -z-10"></div>
 
