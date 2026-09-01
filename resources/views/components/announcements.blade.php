@@ -46,6 +46,30 @@
                     </p>
                 </div>
 
+                <!-- Petunjuk Singkat Penggunaan Twibbon & Caption -->
+                <div class="bg-[#0c0e2c]/70 border border-[#af8a3c]/25 rounded-2xl p-4 sm:p-4.5 space-y-2.5">
+                    <p class="text-xs font-semibold text-[#af8a3c] font-outfit uppercase tracking-wider flex items-center gap-2">
+                        <svg class="w-4 h-4 text-[#af8a3c]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Petunjuk Penggunaan:</span>
+                    </p>
+                    <div class="grid grid-cols-1 gap-2 text-xs text-slate-300">
+                        <div class="flex items-start gap-2.5">
+                            <span class="w-5 h-5 rounded-full bg-[#af8a3c]/20 border border-[#af8a3c]/40 text-[#af8a3c] font-bold text-[11px] flex items-center justify-center shrink-0 mt-0.5">1</span>
+                            <span>Klik <strong class="text-white font-medium">Open Twibbonize Link</strong> untuk memasang foto kamu ke bingkai twibbon resmi.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5">
+                            <span class="w-5 h-5 rounded-full bg-[#af8a3c]/20 border border-[#af8a3c]/40 text-[#af8a3c] font-bold text-[11px] flex items-center justify-center shrink-0 mt-0.5">2</span>
+                            <span>Klik <strong class="text-white font-medium">Salin Caption</strong> untuk menyalin teks caption resmi secara otomatis.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5">
+                            <span class="w-5 h-5 rounded-full bg-[#af8a3c]/20 border border-[#af8a3c]/40 text-[#af8a3c] font-bold text-[11px] flex items-center justify-center shrink-0 mt-0.5">3</span>
+                            <span>Unggah twibbon & caption ke Instagram / media sosial, lalu tag <strong class="text-[#af8a3c] font-medium">@stocksummit.ui</strong>.</span>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Action Buttons -->
                 <div class="pt-2 flex flex-wrap items-center gap-3.5">
                     <!-- Direct Twibbonize Link Button -->
