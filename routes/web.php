@@ -45,8 +45,8 @@ Route::get('/booklet/{track}', function ($track) {
     }
     
     $heyzineUrl = $track === 'erc' 
-        ? 'https://heyzine.com/flip-book/6ec1cafd0d.html' 
-        : 'https://heyzine.com/flip-book/9129d0c89e.html';
+        ? 'https://heyzine.com/flip-book/3e0f7a3d10.html' 
+        : 'https://heyzine.com/flip-book/92f7238760.html';
     
     return view('booklet', compact('title', 'filePath', 'track', 'fileName', 'heyzineUrl'));
 })->name('booklet.show');
