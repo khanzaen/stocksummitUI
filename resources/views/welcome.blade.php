@@ -96,6 +96,7 @@
         <x-universities />
         <x-about />
         <x-tracks />
+        <x-announcements />
         <x-timeline />
         <x-eligibility />
         <x-faq />
