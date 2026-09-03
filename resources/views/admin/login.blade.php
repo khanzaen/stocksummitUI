@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin Login - Stock Summit</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('images/stock_summit_logo.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/stock_summit_logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/stock_summit_logo.png') }}">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>

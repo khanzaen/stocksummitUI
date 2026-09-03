@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ $title }} - Stock Summit UI 2026</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('images/stock_summit_logo.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/stock_summit_logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/stock_summit_logo.png') }}">
     <style>
         body, html {
             margin: 0;
