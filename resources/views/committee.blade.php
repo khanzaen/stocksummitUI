@@ -437,7 +437,7 @@
                                 'vice_faculty' => "FISIP '25",
                                 'vice_image' => 'images/committee_ilma.png',
                                 'staff_members' => [
-                                    ['name' => 'Nazwa Reviana Nursabilla', 'faculty' => 'Vokasi'],
+                                    ['name' => 'Nazwa Reviana Nursabilla', 'faculty' => 'Vokasi', 'image' => 'images/staff_nazwa.png'],
                                     ['name' => 'Anatolia Marrakesh', 'faculty' => 'FEB', 'image' => 'images/staff_anatolia.png'],
                                 ]
                             ],
