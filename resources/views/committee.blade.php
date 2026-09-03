@@ -369,7 +369,7 @@
                                 'staff_members' => [
                                     ['name' => 'Griselda Sherly Ariella', 'faculty' => 'FIB', 'image' => 'images/staff_griselda.png'],
                                     ['name' => 'Siti Qottrunnada', 'faculty' => 'Vokasi', 'image' => 'images/staff_siti.png'],
-                                    ['name' => 'Laura Gaby Liviana Sinaga', 'faculty' => 'Fasilkom'],
+                                    ['name' => 'Laura Gaby Liviana Sinaga', 'faculty' => 'Fasilkom', 'image' => 'images/staff_laura.png'],
                                 ]
                             ],
                             [
@@ -424,7 +424,7 @@
                                 'vice_faculty' => "FIB '25",
                                 'vice_image' => 'images/committee_marcheline.jpg',
                                 'staff_members' => [
-                                    ['name' => 'Anisa Purwanti', 'faculty' => 'FIB'],
+                                    ['name' => 'Anisa Purwanti', 'faculty' => 'FIB', 'image' => 'images/staff_anisa.png'],
                                     ['name' => 'Muhammad Rafi Khadafi', 'faculty' => 'FIB', 'image' => 'images/staff_rafi.png'],
                                 ]
                             ],
@@ -437,7 +437,7 @@
                                 'vice_faculty' => "FISIP '25",
                                 'vice_image' => 'images/committee_ilma.png',
                                 'staff_members' => [
-                                    ['name' => 'Nazwa Reviana Nursabilla', 'faculty' => 'Vokasi'],
+                                    ['name' => 'Nazwa Reviana Nursabilla', 'faculty' => 'Vokasi', 'image' => 'images/staff_nazwa.png'],
                                     ['name' => 'Anatolia Marrakesh', 'faculty' => 'FEB', 'image' => 'images/staff_anatolia.png'],
                                 ]
                             ],
@@ -476,7 +476,7 @@
                                 'manager_image' => 'images/committee_balqis.png',
                                 'staff_members' => [
                                     ['name' => 'Ryan Ricardo', 'faculty' => 'FEB', 'image' => 'images/staff_ryan.png'],
-                                    ['name' => 'Azzahra Nurul Ilma', 'faculty' => 'Vokasi'],
+                                    ['name' => 'Azzahra Nurul Ilma', 'faculty' => 'Vokasi', 'image' => 'images/staff_azzahra.png'],
                                     ['name' => 'Ar Rayyan Regansyah Putra', 'faculty' => 'FEB', 'image' => 'images/staff_rayyan.png'],
                                     ['name' => 'Muhammad Evant Ibrahim', 'faculty' => 'Vokasi'],
                                 ]
