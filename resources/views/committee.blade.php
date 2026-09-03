@@ -339,7 +339,7 @@
                                 'staff_members' => [
                                     ['name' => 'Muhammad Nabil Sakha Alefqi', 'faculty' => "FT '25", 'image' => 'images/staff_nabil.png'],
                                     ['name' => 'Ahmad Faizulhakim', 'faculty' => "FT '25", 'image' => 'images/staff_faizulhakim.png'],
-                                    ['name' => 'Syauqi Fuadi Pelu', 'faculty' => 'FEB'],
+                                    ['name' => 'Syauqi Fuadi Pelu', 'faculty' => 'FEB', 'image' => 'images/staff_syauqi.png'],
                                     ['name' => 'Delvin Athallah Fassah', 'faculty' => "FT '26", 'image' => 'images/staff_delvin.png'],
                                 ]
                             ],
@@ -367,7 +367,7 @@
                                 'vice_faculty' => "Vokasi '25",
                                 'vice_image' => 'images/committee_diandra.png',
                                 'staff_members' => [
-                                    ['name' => 'Griselda Sherly Ariella', 'faculty' => 'FIB'],
+                                    ['name' => 'Griselda Sherly Ariella', 'faculty' => 'FIB', 'image' => 'images/staff_griselda.png'],
                                     ['name' => 'Siti Qottrunnada', 'faculty' => 'Vokasi', 'image' => 'images/staff_siti.png'],
                                     ['name' => 'Laura Gaby Liviana Sinaga', 'faculty' => 'Fasilkom'],
                                 ]
@@ -394,9 +394,9 @@
                                 'vice_faculty' => "FMIPA '24",
                                 'vice_image' => 'images/committee_syifa.jpg',
                                 'staff_members' => [
-                                    ['name' => 'Allen Ahmad Taqy', 'faculty' => 'FIA'],
+                                    ['name' => 'Allen Ahmad Taqy', 'faculty' => 'FIA', 'image' => 'images/staff_allen.png'],
                                     ['name' => 'Ardyastuti Riska Wulandari', 'faculty' => 'FEB', 'image' => 'images/staff_ardyastuti.png'],
-                                    ['name' => 'Felicia Gunawan', 'faculty' => 'FEB'],
+                                    ['name' => 'Felicia Gunawan', 'faculty' => 'FEB', 'image' => 'images/staff_felicia.png'],
                                     ['name' => 'Hosea Ignatio Lim', 'faculty' => 'FEB'],
                                 ]
                             ],
@@ -425,7 +425,7 @@
                                 'vice_image' => 'images/committee_marcheline.jpg',
                                 'staff_members' => [
                                     ['name' => 'Anisa Purwanti', 'faculty' => 'FIB'],
-                                    ['name' => 'Muhammad Rafi Khadafi', 'faculty' => 'FIB'],
+                                    ['name' => 'Muhammad Rafi Khadafi', 'faculty' => 'FIB', 'image' => 'images/staff_rafi.png'],
                                 ]
                             ],
                             [
@@ -435,6 +435,7 @@
                                 'manager_image' => 'images/committee_corp_admin.jpg',
                                 'vice' => 'Ilma Azizah',
                                 'vice_faculty' => "FISIP '25",
+                                'vice_image' => 'images/committee_ilma.png',
                                 'staff_members' => [
                                     ['name' => 'Nazwa Reviana Nursabilla', 'faculty' => 'Vokasi'],
                                     ['name' => 'Anatolia Marrakesh', 'faculty' => 'FEB', 'image' => 'images/staff_anatolia.png'],
@@ -450,8 +451,8 @@
                                 'vice_faculty' => "Vokasi '24",
                                 'vice_image' => 'images/committee_vm_creative_media.png',
                                 'staff_members' => [
-                                    ['name' => 'Najla Muna Qarira', 'faculty' => 'Vokasi'],
-                                    ['name' => 'Cecilia Linda Kusuma', 'faculty' => 'Vokasi'],
+                                    ['name' => 'Najla Muna Qarira', 'faculty' => 'Vokasi', 'image' => 'images/staff_najla.png'],
+                                    ['name' => 'Cecilia Linda Kusuma', 'faculty' => 'Vokasi', 'image' => 'images/staff_cecilia.png'],
                                     ['name' => 'Kalisha Salsabila', 'faculty' => 'FEB', 'image' => 'images/staff_kalisha.jpg'],
                                 ]
                             ],
@@ -465,8 +466,8 @@
                                 'vice_image' => 'images/committee_mirza.png',
                                 'staff_members' => [
                                     ['name' => 'Ariva Zweena', 'faculty' => 'FT', 'image' => 'images/staff_ariva.png'],
-                                    ['name' => 'Nihla Ghybtah Azkiya', 'faculty' => 'Vokasi'],
-                                    ['name' => 'Gian Cenwi Faatina Rizki', 'faculty' => 'Vokasi'],
+                                    ['name' => 'Nihla Ghybtah Azkiya', 'faculty' => 'Vokasi', 'image' => 'images/staff_nihla.png'],
+                                    ['name' => 'Gian Cenwi Faatina Rizki', 'faculty' => 'Vokasi', 'image' => 'images/staff_gian.png'],
                                 ]
                             ],
                             [
@@ -474,9 +475,9 @@
                                 'manager' => 'Balqis Maharani',
                                 'manager_image' => 'images/committee_balqis.png',
                                 'staff_members' => [
-                                    ['name' => 'Ryan Ricardo', 'faculty' => 'FEB'],
+                                    ['name' => 'Ryan Ricardo', 'faculty' => 'FEB', 'image' => 'images/staff_ryan.png'],
                                     ['name' => 'Azzahra Nurul Ilma', 'faculty' => 'Vokasi'],
-                                    ['name' => 'Ar Rayyan Regansyah Putra', 'faculty' => 'FEB'],
+                                    ['name' => 'Ar Rayyan Regansyah Putra', 'faculty' => 'FEB', 'image' => 'images/staff_rayyan.png'],
                                     ['name' => 'Muhammad Evant Ibrahim', 'faculty' => 'Vokasi'],
                                 ]
                             ],
