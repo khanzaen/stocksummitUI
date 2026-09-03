@@ -379,6 +379,7 @@
                                 'manager_image' => 'images/committee_latifah.jpg',
                                 'vice' => 'Amalia Ratu Ferlinda',
                                 'vice_faculty' => "Vokasi '25",
+                                'vice_image' => 'images/committee_amalia.png',
                                 'staff_members' => [
                                     ['name' => 'Anadya Rahmadani', 'faculty' => 'FEB'],
                                     ['name' => 'Sultan Aufa', 'faculty' => 'FIA'],
