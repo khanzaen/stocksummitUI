@@ -7,7 +7,7 @@
         </div>
         <div class="text-center space-y-1" data-aos="fade-up" data-aos-delay="200">
             <p class="text-slate-400 text-xs sm:text-sm font-semibold uppercase tracking-wider">Expected Teams</p>
-            <h4 class="font-outfit font-black text-2xl sm:text-3xl lg:text-4xl text-[#af8a3c]">400+</h4>
+            <h4 class="font-outfit font-black text-2xl sm:text-3xl lg:text-4xl text-[#af8a3c]">250+</h4>
         </div>
         <div class="text-center space-y-1" data-aos="fade-up" data-aos-delay="300">
             <p class="text-slate-400 text-xs sm:text-sm font-semibold uppercase tracking-wider">Participating Univs</p>
