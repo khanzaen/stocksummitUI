@@ -15,7 +15,7 @@
         </div>
         <div class="text-center space-y-1" data-aos="fade-up" data-aos-delay="400">
             <p class="text-slate-400 text-xs sm:text-sm font-semibold uppercase tracking-wider">Professional Judges</p>
-            <h4 class="font-outfit font-black text-2xl sm:text-3xl lg:text-4xl text-[#af8a3c]">15+ Expert</h4>
+            <h4 class="font-outfit font-black text-2xl sm:text-3xl lg:text-4xl text-[#af8a3c]">9 Experts</h4>
         </div>
     </div>
 </section>
