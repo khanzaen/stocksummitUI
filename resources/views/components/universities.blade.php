@@ -36,7 +36,7 @@
                         ['src' => 'images/logo_trisakti.png', 'alt' => 'Universitas Trisakti'],
                         ['src' => 'images/logo_atmajaya.png', 'alt' => 'Universitas Katolik Indonesia Atma Jaya'],
                         ['src' => 'images/logo_ipb.png', 'alt' => 'Institut Pertanian Bogor'],
-                        ['src' => 'images/logo_upi.png', 'alt' => 'Universitas Pendidikan Indonesia'],
+                        ['src' => 'images/logo_binus.png', 'alt' => 'Binus University'],
                         ['src' => 'images/logo_uny.png', 'alt' => 'Universitas Negeri Yogyakarta'],
                         ['src' => 'images/logo_unnes.png', 'alt' => 'Universitas Negeri Semarang'],
                         ['src' => 'images/logo_unj.png', 'alt' => 'Universitas Negeri Jakarta'],

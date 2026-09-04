@@ -352,6 +352,8 @@
                                 'name' => 'Operation',
                                 'manager' => 'Rijalul Magfirah',
                                 'manager_faculty' => "Vokasi '24",
+                                'manager_image' => 'images/committee_rijalul.png',
+                                'manager_position' => 'object-top',
                                 'vice' => 'Yola Cathrine Angeli De Frete',
                                 'vice_faculty' => "FT '24",
                                 'vice_image' => 'images/committee_yola.png',
@@ -386,8 +388,8 @@
                                 'vice_faculty' => "Vokasi '25",
                                 'vice_image' => 'images/committee_amalia.png',
                                 'staff_members' => [
-                                    ['name' => 'Anadya Rahmadani', 'faculty' => 'FEB'],
-                                    ['name' => 'Sultan Aufa', 'faculty' => 'FIA'],
+                                    ['name' => 'Anadya Rahmadani', 'faculty' => 'FEB', 'image' => 'images/staff_anadya.png', 'position' => 'object-top'],
+                                    ['name' => 'Sultan Aufa', 'faculty' => 'FIA', 'image' => 'images/staff_sultan.png', 'position' => 'object-top'],
                                 ]
                             ],
                             // CPO Divisions
@@ -400,10 +402,10 @@
                                 'vice_faculty' => "FMIPA '24",
                                 'vice_image' => 'images/committee_syifa.jpg',
                                 'staff_members' => [
-                                    ['name' => 'Allen Ahmad Taqy', 'faculty' => 'FIA', 'image' => 'images/staff_allen.png'],
+                                    ['name' => 'Allen Ahmad Taqy', 'faculty' => 'FIA', 'image' => 'images/staff_allen.png', 'position' => 'object-top'],
                                     ['name' => 'Ardyastuti Riska Wulandari', 'faculty' => 'FEB', 'image' => 'images/staff_ardyastuti.png'],
                                     ['name' => 'Felicia Gunawan', 'faculty' => 'FEB', 'image' => 'images/staff_felicia.png'],
-                                    ['name' => 'Hosea Ignatio Lim', 'faculty' => 'FEB'],
+                                    ['name' => 'Hosea Ignatio Lim', 'faculty' => 'FEB', 'image' => 'images/staff_hosea.png'],
                                 ]
                             ],
                             [
@@ -507,7 +509,7 @@
                                 <div class="space-y-3">
                                     <div class="w-16 h-16 rounded-full bg-slate-800 border border-slate-700/60 overflow-hidden flex items-center justify-center text-slate-500 mx-auto">
                                         @if(!empty($div['manager_image']) && file_exists(public_path($div['manager_image'])))
-                                            <img src="{{ asset($div['manager_image']) }}" alt="{{ $div['manager'] }}" class="w-full h-full object-cover">
+                                            <img src="{{ asset($div['manager_image']) }}" alt="{{ $div['manager'] }}" class="w-full h-full object-cover {{ $div['manager_position'] ?? '' }}">
                                         @else
                                             <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
@@ -528,7 +530,7 @@
                                     <div class="space-y-3">
                                         <div class="w-16 h-16 rounded-full bg-slate-800 border border-slate-700/60 overflow-hidden flex items-center justify-center text-slate-500 mx-auto">
                                             @if(!empty($div['vice_image']) && file_exists(public_path($div['vice_image'])))
-                                                <img src="{{ asset($div['vice_image']) }}" alt="{{ $div['vice'] }}" class="w-full h-full object-cover">
+                                                <img src="{{ asset($div['vice_image']) }}" alt="{{ $div['vice'] }}" class="w-full h-full object-cover {{ $div['vice_position'] ?? '' }}">
                                             @else
                                                 <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
@@ -589,7 +591,7 @@
                                         <div class="space-y-3">
                                             <div class="w-16 h-16 rounded-full bg-slate-800 border border-slate-700/60 flex items-center justify-center overflow-hidden mx-auto">
                                                 @if(!empty($staff['image']) && file_exists(public_path($staff['image'])))
-                                                    <img src="{{ asset($staff['image']) }}" alt="{{ $staff['name'] }}" class="w-full h-full object-cover">
+                                                    <img src="{{ asset($staff['image']) }}" alt="{{ $staff['name'] }}" class="w-full h-full object-cover {{ $staff['position'] ?? '' }}">
                                                 @else
                                                     <svg class="w-8 h-8 text-slate-500" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                                                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
