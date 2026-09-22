@@ -395,12 +395,12 @@
                             // CPO Divisions
                             [
                                 'name' => 'Competition',
-                                'manager' => 'Muhammad Fahmi Prasetyo',
+                                'manager' => 'Syifa Shafira',
                                 'manager_faculty' => "FMIPA '24",
-                                'manager_image' => 'images/committee_fahmi.jpg',
-                                'vice' => 'Syifa Shafira',
+                                'manager_image' => 'images/committee_syifa.jpg',
+                                'vice' => 'Muhammad Fahmi Prasetyo',
                                 'vice_faculty' => "FMIPA '24",
-                                'vice_image' => 'images/committee_syifa.jpg',
+                                'vice_image' => 'images/committee_fahmi.jpg',
                                 'staff_members' => [
                                     ['name' => 'Allen Ahmad Taqy', 'faculty' => 'FIA', 'image' => 'images/staff_allen.png', 'position' => 'object-top'],
                                     ['name' => 'Ardyastuti Riska Wulandari', 'faculty' => 'FEB', 'image' => 'images/staff_ardyastuti.png'],
