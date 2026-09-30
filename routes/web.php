@@ -45,7 +45,7 @@ Route::get('/booklet/{track}', function ($track) {
     }
     
     $heyzineUrl = $track === 'erc' 
-        ? 'https://heyzine.com/flip-book/3e0f7a3d10.html' 
+        ? 'https://heyzine.com/flip-book/d196214aa8.html' 
         : 'https://heyzine.com/flip-book/92f7238760.html';
     
     return view('booklet', compact('title', 'filePath', 'track', 'fileName', 'heyzineUrl'));
