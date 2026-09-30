@@ -25,6 +25,7 @@
                     <li><a href="{{ Request::is('/') ? '#timeline' : '/#timeline' }}" class="hover:text-[#af8a3c] transition-colors">Timeline</a></li>
                     <li><a href="{{ Request::is('/') ? '#faq' : '/#faq' }}" class="hover:text-[#af8a3c] transition-colors">FAQ</a></li>
                     <li><a href="{{ Request::is('/') ? '#archives' : '/#archives' }}" class="hover:text-[#af8a3c] transition-colors">Past Events</a></li>
+                    <li><a href="{{ Request::is('/') ? '#media-partners' : '/#media-partners' }}" class="hover:text-[#af8a3c] transition-colors">Media Partners</a></li>
                     <li><a href="{{ Request::is('/') ? '#contact' : '/#contact' }}" class="hover:text-[#af8a3c] transition-colors">Contact Us</a></li>
                     <li><a href="/committee" class="hover:text-[#af8a3c] transition-colors">Committee</a></li>
                 </ul>
