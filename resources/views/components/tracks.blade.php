@@ -150,6 +150,12 @@
                             Portfolio optimization & returns contest
                         </li>
                     </ul>
+
+                    <!-- Official Trading Platform Partner Info Box -->
+                    <div class="pt-4 border-t border-slate-800/80 space-y-2 text-left">
+                        <span class="text-[10px] uppercase font-outfit font-bold tracking-wider text-[#af8a3c] block">Official Trading Platform</span>
+                        <img src="{{ asset('images/official_trading_platform.png') }}" alt="IPOT Official Trading Platform" class="h-7 sm:h-8 w-auto object-contain">
+                    </div>
                 </div>
 
                 <!-- CTA Button -->

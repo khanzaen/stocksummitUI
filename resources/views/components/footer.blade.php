@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="w-full max-w-full border-t border-[#af8a3c]/15 bg-white pt-16 pb-12 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
-        <!-- Top Row: Grid of Info -->
+        <!-- Top Row: Grid of Info (3 Columns) -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 pb-8 border-b border-slate-200">
             <!-- Column 1: Branding & Description -->
             <div class="space-y-4 text-left">
@@ -13,7 +13,6 @@
                 <p class="text-xs text-slate-600 font-light leading-relaxed max-w-sm">
                     Indonesia's premier national stock trading simulation and valuation competition. Empowering undergraduate students to bridge academic theory with live market execution.
                 </p>
-
             </div>
 
             <!-- Column 2: Quick Links -->
