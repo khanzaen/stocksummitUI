@@ -106,6 +106,7 @@
         <x-eligibility />
         <x-faq />
         <x-archives />
+        <x-media-partners />
         <x-contact />
         <x-register-cta />
         <x-footer />
