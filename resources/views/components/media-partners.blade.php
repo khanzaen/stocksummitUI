@@ -31,7 +31,7 @@
     <div class="max-w-6xl mx-auto px-4 w-full relative z-10 space-y-12">
         <!-- Section Header -->
         <div class="text-center mb-12 space-y-3" data-aos="fade-up">
-            <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase">Publications & Communities</p>
+            <p class="text-[#af8a3c] font-outfit font-bold tracking-[0.2em] text-xs uppercase">Official Network</p>
             <h2 class="font-outfit font-black text-3xl sm:text-4xl text-white uppercase">Media Partners</h2>
             <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto">
                 In collaboration with premier national media publications and university investment societies.
